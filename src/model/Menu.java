@@ -31,6 +31,9 @@ public class Menu {
     public void rimuoviPiatto(Piatto piatto) {
         this.listaPiatti.remove(piatto);
     }
+
+
+
 }
 
 

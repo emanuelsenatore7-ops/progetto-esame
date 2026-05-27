@@ -34,6 +34,7 @@ public class Piatto {
     }
 
 
+
     // Restituisce la lista degli ingredienti della ricetta
     public ArrayList<Ingrediente> getRicetta() {
         return ricetta;
@@ -45,4 +46,8 @@ public class Piatto {
         this.ricetta.add(ingrediente);
     }
 
+    @Override
+    public String toString() {
+        return nome +"-"+ prezzo +" $";
+    }
 }
